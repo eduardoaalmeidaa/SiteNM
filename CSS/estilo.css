@@ -1,0 +1,313 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+    color: rgba(0, 0, 0, 1);
+
+}
+
+#interface {
+    width: 1400px;
+    background-color: #040494;
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+    padding: 10px 10px 10px 10px;
+}
+
+#cabecalho {
+    border-bottom: 1px #ffffff solid;
+    height: 150px;
+}
+
+#rodape {
+    clear: both;
+    border-top: 1px solid yellow;
+    font-family: 'Verdana', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#rodape p {
+    text-align: center;
+    font-family: 'Verdana', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#cabecalho h1 {
+    position: absolute;
+    text-align: center;
+    color: #04cd83;
+    font-family: 'Verdana', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30pt;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
+    padding: 0px;
+    margin-bottom: 150px;
+    margin-top: 10px;
+    margin-left: 520px;
+}
+
+#cabecalho img#logo {
+    position: absolute;
+    left: 20px;
+    top: 25px;
+    height: 100px;
+    width: 170px;
+    border: none;
+}
+
+#cabecalho img#icone {
+    position: absolute;
+    left: 1160px;
+    top: 25px;
+    height: 100px;
+    width: 170px;
+}
+
+#menu {
+    display: block;
+}
+
+#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 100px;
+    left: 300px;
+}
+
+#menu li {
+    display: inline-block;
+    background-color: #040494;
+    padding: 10px;
+    margin: 2px;
+    -webkit-transition: background-color 1s;
+    transition: background-color 1s;
+    font-size: 10;
+    font-family: 'Verdana', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#menu li:hover {
+    background-color: black;
+}
+
+#menu h1 {
+    display: none;
+}
+
+#menu a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#menu a:hover {
+    color: #ffffff;
+}
+
+/*Fim da formatação do menu*/
+
+#corpo {
+    display: block;
+    width: 650px;
+    float: left;
+    border-right: 1px solid hwb(0 3% 97%);
+    padding-right: 15px;
+    font-family: 'Verdana', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table#tabelaspec {
+    border: 1px solid #59c8ae;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Verdana', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table#tabelaspec td {
+    border: 1px solid #59c8ae;
+    padding: 10px;
+    background-color: #040494;
+    color: #ffffff;
+    font-family: 'Verdana', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+aside#lateral {
+    display: block;
+    width: 600px;
+    float: right;
+    background-color: #dddddd;
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
+    font-family: 'Verdana', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+aside#lateral h1 {
+    font-family: 'FontLogo', sans-serif;
+    font-size: 20pt;
+    color: #606060;
+    margin-top: 0px;
+}
+
+aside#lateral h2 {
+    font-size: 13pt;
+    color: #ffffff;
+    background-color: #606060;
+    padding: 10px;
+    font-family: 'Verdana', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* @charset "UTF-8"; */
+
+ul#album-fotos {
+    width: 600px;
+    margin: 0px auto;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+}
+
+ul#album-fotos li span {
+    opacity: 0;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #000000;
+    background-color: rgba(0, 0, 0, .3);
+    font-size: 9px;
+    line-height: 370px;
+    padding: 5px;
+}
+
+ul#album-fotos li {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 5px solid #59c8ae;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .4);
+    transition: all .4s ease-in;
+    -webkit-transition: all .10s ease-out;
+}
+
+ul#album-fotos li:hover {
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+}
+
+ul#album-fotos li:hover span {
+    opacity: 1;
+}
+
+ul#album-fotos li#foto-01 {
+    background: url('../_imagens/samsung.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    ;
+}
+
+ul#album-fotos li#foto-01:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto-02 {
+    background: url('../_imagens/apple.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+
+ul#album-fotos li#foto-02:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto-03 {
+    background: url('../_imagens/air.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+
+ul#album-fotos li#foto-03:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto-04 {
+    background: url('../_imagens/panela.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+
+ul#album-fotos li#foto-04:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto-05 {
+    background: url('../_imagens/para.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+
+ul#album-fotos li#foto-05:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto-06 {
+    background: url('../_imagens/brast.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+
+ul#album-fotos li#foto-06:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto-07 {
+    background: url('../_imagens/cama.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+
+ul#album-fotos li#foto-07:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto-08 {
+    background: url('../_imagens/jantar.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+
+ul#album-fotos li#foto-08:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto-09 {
+    background: url('../_imagens/tvoled.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+
+ul#album-fotos li#foto-09:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto-10 {
+    background: url('../_imagens/home.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+
+ul#album-fotos li#foto-10:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
